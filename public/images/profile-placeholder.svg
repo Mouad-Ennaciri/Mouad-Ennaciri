@@ -1,0 +1,18 @@
+<svg width="960" height="1200" viewBox="0 0 960 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="1200" fill="#0B0B12"/>
+  <path d="M0 0H960V1200H0V0Z" fill="url(#paint0_radial)"/>
+  <path d="M80 170L850 70L910 1030L140 1130L80 170Z" fill="#121225" stroke="#6C63FF" stroke-width="4"/>
+  <path d="M170 260L760 184L806 932L214 1014L170 260Z" fill="#0F0F1B" stroke="#6C63FF" stroke-opacity="0.42" stroke-width="2"/>
+  <path d="M234 344L725 282L754 802L266 868L234 344Z" fill="#15152C"/>
+  <text x="480" y="662" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="210" font-weight="800" letter-spacing="-10" fill="#6C63FF">ME</text>
+  <path d="M242 342L724 281" stroke="white" stroke-opacity="0.18" stroke-width="2"/>
+  <path d="M267 870L755 804" stroke="white" stroke-opacity="0.18" stroke-width="2"/>
+  <circle cx="180" cy="190" r="5" fill="#6C63FF"/>
+  <circle cx="782" cy="972" r="5" fill="#6C63FF"/>
+  <defs>
+    <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(480 560) rotate(90) scale(620 500)">
+      <stop stop-color="#6C63FF" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#0B0B12" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>
