@@ -1,3 +1,4 @@
+import { Icon } from "@iconify/react";
 import { journey } from "./data";
 
 export function JourneySection() {
@@ -21,8 +22,9 @@ export function JourneySection() {
           {journey.map((item) => (
             <div data-reveal key={`${item.year}-${item.phase}`} className="journey-card">
               <span className="absolute -left-[2.45rem] top-7 hidden h-4 w-4 rounded-full border-4 border-[var(--bg)] bg-[#6C63FF] sm:block" />
-              <p className="font-heading text-sm font-black uppercase tracking-[0.25em] text-[#6C63FF]">
-                📅 {item.year} — {item.phase}
+              <p className="inline-flex items-center gap-2 font-heading text-sm font-black uppercase tracking-[0.25em] text-[#6C63FF]">
+                <Icon icon="mdi:calendar" />
+                {item.year} - {item.phase}
               </p>
               <h3 className="mt-3 font-heading text-2xl font-bold">
                 {item.title}

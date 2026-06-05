@@ -6,11 +6,11 @@ export function Footer() {
           Mouad Ennaciri
         </a>
         <p className="text-center">
-          © 2026 — Designed & Built by Mouad Ennaciri
+          (c) 2026 - Designed & Built by Mouad Ennaciri
         </p>
-        <p className="text-right">Built with Next.js & GSAP ❤️</p>
+        <p className="text-right">Built with Next.js & GSAP</p>
         <p className="text-center text-xs lg:col-span-3">
-          Marrakech, Morocco 🇲🇦
+          Marrakech, Morocco
         </p>
       </div>
     </footer>

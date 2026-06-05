@@ -78,13 +78,15 @@ function setupSkillAnimations() {
 function setupCounters() {
   gsap.utils.toArray<HTMLElement>("[data-counter]").forEach((element) => {
     const value = element.dataset.counter;
-    if (!value || value === "∞") {
+    const targetValue = Number(value);
+
+    if (!value || !Number.isFinite(targetValue)) {
       return;
     }
 
     const counterObject = { value: 0 };
     gsap.to(counterObject, {
-      value: Number(value),
+      value: targetValue,
       duration: 1.4,
       ease: "power3.out",
       scrollTrigger: { trigger: element, start: "top 90%", once: true },

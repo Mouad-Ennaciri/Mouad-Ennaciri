@@ -12,7 +12,7 @@ export const stats = [
   ["2+", "Years of Learning"],
   ["2+", "Projects Built"],
   ["100%", "Self-Taught"],
-  ["∞", "Passion for Code"],
+  ["\u221E", "Passion for Code"],
 ];
 
 export const highlights = [
@@ -71,22 +71,22 @@ export const skillCategories = [
 ];
 
 export const projects = [
- {
-  number: "01",
-  name: "Tomobilty",
-  tagline: "Premium Car Rental and Fleet Management Platform",
-  description:
-    "A React 19 and Vite car rental application for browsing vehicles, checking availability, booking cars, and managing fleet operations through a Supabase-powered admin dashboard.",
-  tech: ["React 19", "Vite", "Supabase", "Tailwind CSS"],
-},
- {
-  number: "02",
-  name: "CZS",
-  tagline: "Landing page for an accounting, audit, and consulting firm",
-  description:
-    "A responsive React landing page for CZS, presenting accounting, audit, tax, and business consulting services with animated sections, service navigation, dark mode, and a validated contact form.",
-  tech: ["React", "Vite", "GSAP", "Tailwind CSS"],
-}
+  {
+    number: "01",
+    name: "Tomobilty",
+    tagline: "Premium Car Rental and Fleet Management Platform",
+    description:
+      "A React 19 and Vite car rental application for browsing vehicles, checking availability, booking cars, and managing fleet operations through a Supabase-powered admin dashboard.",
+    tech: ["React 19", "Vite", "Supabase", "Tailwind CSS"],
+  },
+  {
+    number: "02",
+    name: "CZS",
+    tagline: "Landing page for an accounting, audit, and consulting firm",
+    description:
+      "A responsive React landing page for CZS, presenting accounting, audit, tax, and business consulting services with animated sections, service navigation, dark mode, and a validated contact form.",
+    tech: ["React", "Vite", "GSAP", "Tailwind CSS"],
+  },
 ];
 
 export const journey = [
@@ -95,21 +95,21 @@ export const journey = [
     phase: "The Foundation",
     title: "University & Business Mindset",
     description:
-      "Started a Business Management degree at Université Cadi Ayyad in Marrakech. Built deep analytical thinking, project coordination skills, and a professional work ethic that still shapes how I approach development today.",
+      "Started a Business Management degree at Universite Cadi Ayyad in Marrakech. Built deep analytical thinking, project coordination skills, and a professional work ethic that still shapes how I approach development today.",
   },
   {
     year: "2023",
     phase: "The Pivot",
     title: "From Accounting to Code",
     description:
-      "Joined a chartered accounting firm after graduating. But something kept pulling me toward tech. Opened a code editor for the first time — and wrote my first lines of HTML and CSS. Saw it render in the browser and never looked back.",
+      "Joined a chartered accounting firm after graduating. But something kept pulling me toward tech. Opened a code editor for the first time - and wrote my first lines of HTML and CSS. Saw it render in the browser and never looked back.",
   },
   {
     year: "2024",
     phase: "Going Deeper",
     title: "Self-Taught & Obsessed",
     description:
-      "No bootcamp, no school — just pure self-discipline. Spent months learning JavaScript, then React, then Tailwind CSS. Built projects from scratch, broke things, fixed them, and kept going. This is where the real foundation was laid.",
+      "No bootcamp, no school - just pure self-discipline. Spent months learning JavaScript, then React, then Tailwind CSS. Built projects from scratch, broke things, fixed them, and kept going. This is where the real foundation was laid.",
   },
   {
     year: "2025",
@@ -121,7 +121,7 @@ export const journey = [
   {
     year: "2025",
     phase: "Level Up",
-    title: "Bootcamp — From Self-Taught to Battle-Tested",
+    title: "Bootcamp - From Self-Taught to Battle-Tested",
     description:
       "Joined JobInTech's intensive Front-End bootcamp to sharpen what I'd already built on my own. Went deep on React architecture, clean code, and real team workflows. Also interned at Algorium Academy and shipped a PC store app at a hackathon.",
   },
@@ -130,7 +130,7 @@ export const journey = [
     phase: "Going Pro",
     title: "AI Agent & Next.js",
     description:
-      "Joined Imfa Solutions remotely to build the UI of an AI agent — using Next.js, Tailwind CSS, Hero UI, and Supabase. Handled auth, data management, and API integration. Real-world, production-level work.",
+      "Joined Imfa Solutions remotely to build the UI of an AI agent - using Next.js, Tailwind CSS, Hero UI, and Supabase. Handled auth, data management, and API integration. Real-world, production-level work.",
   },
 ];
 

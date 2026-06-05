@@ -71,12 +71,12 @@ export function ContactSection({
           <input className="form-field" id="email" name="email" placeholder="Your Email" type="email" required />
           <label className="form-label" htmlFor="message">Tell me about your project...</label>
           <textarea className="form-field min-h-40 resize-y" id="message" name="message" placeholder="Tell me about your project..." required />
-          <button className="btn-primary mt-6 w-full disabled:cursor-not-allowed disabled:opacity-60 cursor-pointer" type="submit" disabled={isSending} data-magnetic>
-            {isSending ? "Sending..." : "Send Message →"}
+          <button className="btn-primary mt-6 w-full cursor-pointer disabled:cursor-not-allowed disabled:opacity-60" type="submit" disabled={isSending} data-magnetic>
+            {isSending ? "Sending..." : "Send Message ->"}
           </button>
           {isMessageSent && (
             <p className="mt-5 font-bold text-emerald-400">
-              Message sent! I&apos;ll get back to you soon 🚀
+              Message sent. I&apos;ll get back to you soon.
             </p>
           )}
           {formError && <p className="mt-5 font-bold text-red-400">{formError}</p>}

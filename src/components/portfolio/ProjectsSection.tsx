@@ -75,7 +75,7 @@ export function ProjectsSection() {
           className="text-[#8B85FF]"
           data-magnetic
         >
-          See all on GitHub â†’
+          See all on GitHub -&gt;
         </a>
       </div>
     </section>

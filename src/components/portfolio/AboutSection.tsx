@@ -33,17 +33,17 @@ export function AboutSection() {
           <p data-reveal>
             I&apos;m Mouad Ennaciri, a self-taught Front-End Developer based in
             Marrakech, Morocco. My journey into code started with pure curiosity
-            — no classroom, no university, just a screen, the internet, and an
+            - no classroom, no university, just a screen, the internet, and an
             obsession with building things that look and feel amazing.
           </p>
           <p data-reveal>
             I specialize in React and Next.js, building web applications that
             are fast, accessible, and visually exceptional. I believe the best
-            interfaces are the ones users don&apos;t have to think about — they
+            interfaces are the ones users don&apos;t have to think about - they
             just feel right.
           </p>
           <p data-reveal>
-            Being self-taught taught me more than just code — it taught me how
+            Being self-taught taught me more than just code - it taught me how
             to learn, how to solve problems independently, and how to never stop
             growing. Every project I build is proof of that dedication.
           </p>

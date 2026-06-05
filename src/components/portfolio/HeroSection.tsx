@@ -17,7 +17,7 @@ export function HeroSection() {
 
       <div className="relative z-10">
         <p data-hero-label className="section-label mb-5">
-          Based in Marrakech, Morocco 🇲🇦
+          Based in Marrakech, Morocco
         </p>
         <h1 className="hero-title font-heading text-[clamp(4rem,11vw,10.5rem)] font-black leading-[0.82] tracking-[-0.075em] text-[var(--text)]">
           {headlineLines.map((line) => (
@@ -27,7 +27,7 @@ export function HeroSection() {
           ))}
         </h1>
         <p data-hero-subheadline className="mt-8 max-w-2xl text-xl font-semibold leading-8 text-[var(--text)]">
-          Front-End Developer specializing in React & Next.js — crafting fast,
+          Front-End Developer specializing in React & Next.js - crafting fast,
           animated, and pixel-perfect web experiences.
         </p>
         <p data-hero-paragraph className="mt-5 max-w-2xl text-lg leading-8 text-[var(--muted)]">
@@ -62,12 +62,19 @@ export function HeroSection() {
         </div>
 
         <div className="mt-12 grid max-w-3xl grid-cols-2 gap-3 sm:grid-cols-4">
-          {stats.map(([value, label]) => (
-            <div data-stat key={label} className="stat-card">
-              <strong data-counter={value.replace(/[+%]/g, "")}>{value}</strong>
-              <span>{label}</span>
-            </div>
-          ))}
+          {stats.map(([value, label]) => {
+            const counterValue = value.replace(/[+%]/g, "");
+            const shouldCount = Number.isFinite(Number(counterValue));
+
+            return (
+              <div data-stat key={label} className="stat-card">
+                <strong data-counter={shouldCount ? counterValue : undefined}>
+                  {value}
+                </strong>
+                <span>{label}</span>
+              </div>
+            );
+          })}
         </div>
 
         <div className="mt-10 flex items-center gap-3 text-sm font-bold text-[var(--muted)]">
