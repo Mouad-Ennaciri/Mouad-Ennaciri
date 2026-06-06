@@ -20,7 +20,7 @@ Frontend Developer specializing in React and Next.js.
 - Git & GitHub
 
 ## Open Source Projects
-  - **[CZS](https://czs-app.vercel.app/)**
+  - **[CZS](https://github.com/Mouad-Ennaciri/czs-app)**
   - **[Razer](https://github.com/Mouad-Ennaciri/razer-app)**
 
 ## Live Projects
