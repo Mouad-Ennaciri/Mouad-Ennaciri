@@ -20,10 +20,8 @@ Frontend Developer specializing in React and Next.js.
 - Git & GitHub
 
 ## Open Source Projects
-
-  -[CZS](https://czs-app.vercel.app/)
+  - [CZS](https://czs-app.vercel.app/)
 
 ## Live Projects
-
   - [Portfolio](https://mouad-ennaciri.vercel.app/)
   - [Tomobilty](https://tomobilty-mu.vercel.app/)
