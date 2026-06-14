@@ -2,7 +2,7 @@ import { projects } from "./data";
 
 const demoUrls: Record<string, string> = {
   "01": "https://tomobilty-mu.vercel.app/",
-  "02": "https://czs-app.vercel.app/",
+  "02": "https://survival-fitness.vercel.app/",
 };
 
 export function ProjectsSection() {

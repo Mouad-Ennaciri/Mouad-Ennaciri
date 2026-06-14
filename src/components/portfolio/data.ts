@@ -81,11 +81,11 @@ export const projects = [
   },
   {
     number: "02",
-    name: "CZS",
-    tagline: "Landing page for an accounting, audit, and consulting firm",
+    name: "Survival Fitness",
+    tagline: "Landing page for a fitness and wellness brand",
     description:
-      "A responsive React landing page for CZS, presenting accounting, audit, tax, and business consulting services with animated sections, service navigation, dark mode, and a validated contact form.",
-    tech: ["React", "Vite", "GSAP", "Tailwind CSS"],
+      "A responsive Next.js landing page for Survival Fitness, presenting personal training, nutrition coaching, and wellness services with animated sections, service navigation, dark mode, and a validated contact form.",
+    tech: [  "React", "Next.js","TypeScript","Tailwind CSS","GSAP",],
   },
 ];
 
