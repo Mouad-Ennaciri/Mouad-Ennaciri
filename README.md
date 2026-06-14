@@ -26,4 +26,4 @@ Frontend Developer specializing in React and Next.js.
 ## Live Projects
   - **[Portfolio](https://mouad-ennaciri.vercel.app/)**
   - **[Tomobilty](https://tomobilty-mu.vercel.app/)**
-  - ***[Survival Fitness](https://survival-fitness.vercel.app/)*
+  - **[Survival Fitness](https://survival-fitness.vercel.app/)**
