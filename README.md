@@ -17,6 +17,7 @@ Frontend Developer specializing in React and Next.js.
 - JavaScript
 - Tailwind CSS
 - HTML & CSS
+- Supabase
 - Git & GitHub
 
 ## Open Source Projects
@@ -27,3 +28,4 @@ Frontend Developer specializing in React and Next.js.
   - **[Portfolio](https://mouad-ennaciri.vercel.app/)**
   - **[Tomobilty](https://tomobilty-mu.vercel.app/)**
   - **[Survival Fitness](https://survival-fitness.vercel.app/)**
+  - **[Zereph e-commerce](https://zereph.vercel.app/)**
