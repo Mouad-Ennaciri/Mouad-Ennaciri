@@ -29,3 +29,4 @@ Frontend Developer specializing in React and Next.js.
   - **[Tomobilty](https://tomobilty-mu.vercel.app/)**
   - **[Survival Fitness](https://survival-fitness.vercel.app/)**
   - **[Zereph e-commerce](https://zereph.vercel.app/)**
+  - **[Khalid peinture](https://khalid-paint.vercel.app/fr)**
