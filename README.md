@@ -1,6 +1,6 @@
 # Hi 👋! I'm Mouad Ennaciri
 
-Frontend Developer specializing in React and Next.js.
+Fullstack Developer specializing in React and Next.js.
 
 ## About Me
 
@@ -18,6 +18,8 @@ Frontend Developer specializing in React and Next.js.
 - Tailwind CSS
 - HTML & CSS
 - Supabase
+- Prisma
+- PostgreSQL
 - Git & GitHub
 
 ## Open Source Projects
@@ -26,6 +28,7 @@ Frontend Developer specializing in React and Next.js.
 
 ## Live Projects
   - **[Portfolio](https://mouad-ennaciri.vercel.app/)**
+  - **[XY Clothing](https://clothing-e-commerce-omega.vercel.app/)**
   - **[Tomobilty](https://tomobilty-mu.vercel.app/)**
   - **[Survival Fitness](https://survival-fitness.vercel.app/)**
   - **[Zereph e-commerce](https://zereph.vercel.app/)**
