@@ -1,6 +1,6 @@
 # Hi 👋! I'm Mouad Ennaciri
 
-Fullstack Developer specializing in React and Next.js.
+Frontend Developer specializing in React and Next.js.
 
 ## About Me
 
